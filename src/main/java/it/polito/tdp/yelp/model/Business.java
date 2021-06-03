@@ -130,5 +130,7 @@ public class Business {
 		return true;
 	}
 
-	
+	public String toString() {
+		return this.businessName;
+	}
 }
